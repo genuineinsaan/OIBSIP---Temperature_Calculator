@@ -27,10 +27,6 @@ Temperature-Converter-Website/
 ### 🌐 Live Demo
 [Click to view on GitHub Pages](https://genuineinsaan.github.io/Temperature-Converter-Website/)
 
-### 📸 Preview
-![Demo Screenshot](<img width="1919" height="866" alt="Screenshot 2025-07-17 203916" src="https://github.com/user-attachments/assets/8e9e5590-28a3-4a81-91c2-4d6aea6bb3ab" />
-)
-
 ---
 
 ### 🧑‍💻 Author
