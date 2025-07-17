@@ -25,7 +25,7 @@ Temperature-Converter-Website/
 
  
 ### 🌐 Live Demo
-[Click to view on GitHub Pages](https://genuineinsaan.github.io/Temperature-Converter-Website/)
+[Click to view on GitHub Pages](https://genuineinsaan.github.io/OIBSIP---Temperature_Calculator/)
 
 ---
 
