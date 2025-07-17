@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 1s ease;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.converter-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  max-width: 400px;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.converter-card:hover {
+  transform: scale(1.02);
+}
+
+label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: 600;
+  text-align: left;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  transition: all 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Logo Styling */
+.logo {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  animation: fadeInLogo 1s ease-in-out;
+}
+
+/* Optional logo fade-in animation */
+@keyframes fadeInLogo {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
